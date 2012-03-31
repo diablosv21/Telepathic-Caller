@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/AboutBackground">
+	<LinearLayout style="@style/AboutLayout">
+		<TextView
+			style="@style/AboutHeading"
+			android:text="@string/about_heading"
+			/>
+		<TextView
+			style="@style/AboutContent"
+			android:text="@string/about_one_one"
+			/>
+		<ImageView 
+			android:layout_height="160dip" 
+			android:layout_width="wrap_content" 
+			android:src="@drawable/about_screen1" 
+			android:paddingLeft="20dip" 
+			android:paddingRight="20dip"></ImageView>
+		<TextView
+			style="@style/AboutContent"
+			android:text="@string/about_one_two"
+			/>
+		<Button
+			style="@style/AboutButton"
+			android:text="@string/next"
+			android:id="@+id/btnNext" />
+	</LinearLayout>
+</ScrollView>

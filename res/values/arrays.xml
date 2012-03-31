@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="frequencyNames">
+		<item>5 Minutes</item>
+		<item>10 Minutes</item>
+		<item>15 Minutes</item>
+		<item>30 Minutes</item>
+		<item>1 Hour</item>
+		<item>2 Hours</item>
+		<item>6 Hours</item>
+	</string-array>
+	<string-array name="frequencyValues">
+		<item>4</item>
+		<item>9</item>
+		<item>14</item>
+		<item>29</item>
+		<item>59</item>
+		<item>119</item>
+		<item>359</item>
+	</string-array>
+	<string-array name="numberOfContacts">
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+	</string-array>
+	<string-array name="contactBadgeSizes">
+		<item>Small</item>
+		<item>Medium</item>
+		<item>Large</item>
+	</string-array>
+	<string-array name="contactBadgeSizeValues">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="loadingText">
+		<item>Making Predictions...</item>
+		<item>Approaching 88mph...</item>
+		<item>Breaking Time/Space Barrier...</item>
+		<item>Reading Tea Leaves...</item>
+		<item>Asking Chuck Norris...</item>
+		<item>Having a Guess...</item>
+		<item>Reading Tarot Cards...</item>
+		<item>Accessing Cerebro...</item>
+		<item>Starring at Goat...</item>
+		<item>Reading Your Mind...</item>
+		<item>Checking Google...</item>
+		<item>Referring to Cheat Sheet...</item>
+		<item>Looking up Wikipedia...</item>
+		<item>Visiting the Oracle...</item>
+		<item>Stabbing in the Dark...</item>
+		<item>Contacting Paul the Octopus...</item>
+		<item>Reading Crystal Ball...</item>
+		<item>Scanning Palm...</item>
+		<item>Setting up Ouiga Board...</item>
+		<item>Looking Through Your Trash...</item>
+		<item>Activating Flux Capacitor...</item>
+		<item>Asking Your Mum...</item>
+		<item>Analysing Statistics...</item>
+		<item>Flipping a Coin...</item>
+		<item>Crunching Numbers...</item>
+		<item>Hacking the Gibson...</item>
+		<item>Rock, Paper, Scissors...</item>
+		<item>Accelerating past 299,792,458 m/s...</item>
+		<item>Rolling Dice...</item>
+		<item>Placing Bets...</item>
+		<item>Executing getRandomNumber()...</item>
+	</string-array>
+</resources>

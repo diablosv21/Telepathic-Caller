@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Contact Preferences">
+		<CheckBoxPreference android:key="displayUnknowns" android:title="Show Unknown Contacts" android:summary="Whether the predictions contain phone numbers which aren't in your contacts" android:defaultValue="false"></CheckBoxPreference>
+		<ListPreference android:dialogTitle="Select number of contacts to display" android:entries="@array/numberOfContacts" android:entryValues="@array/numberOfContacts" android:key="numberOfContacts" android:title="Number Of Contacts" android:summary="The maximum number of Contacts to display in the list" android:defaultValue="10"></ListPreference>
+	<ListPreference android:key="updateFrequency" android:title="Update Frequency" android:summary="How often to update the caller list" android:dialogTitle="Select an Update Frequency" android:entries="@array/frequencyNames" android:entryValues="@array/frequencyValues" android:defaultValue="14"></ListPreference></PreferenceCategory>
+	<PreferenceCategory android:title="Selection Preferences">
+		<CheckBoxPreference android:defaultValue="false" android:key="useContactBadge" android:title="Use Contact Badge" android:summary="Clicking a contact will display the Contact Badge instead of calling"></CheckBoxPreference>
+		<ListPreference android:key="contactBadgeSize" android:title="Contact Badge Size" android:summary="The size of the Contact Badge when displayed" android:dialogTitle="Select a Contact Badge Size" android:entries="@array/contactBadgeSizes" android:entryValues="@array/contactBadgeSizeValues" android:defaultValue="3" android:dependency="useContactBadge"></ListPreference>
+		
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Profile Preferences">
+		<CheckBoxPreference android:defaultValue="true" android:key="showProfile" android:title="Show Profile" android:summary="Display the profile on the main screen"></CheckBoxPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

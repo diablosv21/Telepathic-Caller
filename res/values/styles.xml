@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppBackground">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">#000000</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="AppHeader">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">50dip</item>
+		<item name="android:background">@drawable/header_background</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	<style name="HeaderDivider">
+		<item name="android:layout_width">1px</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">#C0C0C0</item>
+	</style>
+	<style name="HeaderText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:paddingLeft">16dip</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">18dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="HeaderButton">
+		<item name="android:layout_width">50dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@drawable/button_selector</item>
+	</style>
+	<style name="LoadingText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">16dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">18dip</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="AppFooter">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">40dip</item>
+		<item name="android:background">@drawable/button_selector</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">16dip</item>
+	</style>
+	<style name="PhoneIcon">
+		<item name="android:layout_width">20dip</item>
+		<item name="android:layout_height">20dip</item>
+		<item name="android:background">@drawable/phone_icon_background</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:visibility">gone</item>
+	</style>
+	<style name="AboutBackground">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">#FFFFFF</item>
+	</style>
+	<style name="AboutLayout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="AboutHeading">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:paddingTop">15dip</item>
+		<item name="android:paddingBottom">15dip</item>
+		<item name="android:textSize">20dip</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="AboutContent">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:paddingTop">15dip</item>
+		<item name="android:paddingBottom">15dip</item>
+		<item name="android:textSize">18dip</item>
+	</style>
+	<style name="AboutButton">
+		<item name="android:layout_width">140dip</item>
+		<item name="android:layout_height">45dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">18dip</item>
+		<item name="android:background">@drawable/about_button_selector</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+	</style>
+</resources>

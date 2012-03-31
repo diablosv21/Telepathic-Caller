@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, contacts!</string>
+    <string name="app_name">Telepathic Caller</string>
+    <string name="widget_small">Telepathic Widget 2x1</string>
+    <string name="widget_large">Telepathic Widget 4x1</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+	<string name="alert">Please Note</string>
+	<string name="badge_disabled">The Contact Badge is currently not supported in Android 2.1.</string>
+	<string name="OK">OK</string>
+	<string name="loading">Making Predictions...</string>
+    <string name="no_predictions">No Predictions to Display</string>
+    <string name="about_heading">About Telepathic Caller</string>
+    <string name="about_one_one">Telepathic Caller analyses previous calls to predict who you are likely to call next.</string>
+    <string name="about_one_two">Place a 2x1 or 4x1 widget on your home screen and simply press a contact icon to call.</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="finish">Finish</string>
+    <string name="profiles">Profiles</string>
+    <string name="about_two_one">Based on previous calls, Telepathic Caller assigns you your own Profile which can change over time.</string>
+    <string name="about_two_two">Press the black Profile name bar to get insight into your calling habbits.</string>
+</resources>
